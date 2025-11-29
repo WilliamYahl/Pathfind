@@ -1,5 +1,5 @@
 body{
-	background-color: lightblue;
+	background-color: lightgreen;
 }
 
 .container {
@@ -14,7 +14,7 @@ body{
 	grid-template-columns: 100px;
 	grid-template-rows: 50px;
   
-	background-color: lightblue;
+	background-color: lightgreen;
 	gap: 2px;
 }
 
@@ -22,7 +22,7 @@ header {​
 	grid-area: header;
 	grid-area: header;
 	
-	background: darkblue;
+	background: black;
 	
 	display: flex;
 	justify-content: center;
@@ -40,9 +40,26 @@ nav {
 	grid-area: nav;
 	
 	background-color: lightgray;
-	padding: 10px;
 }
+
+nav ul {
+	display: block;
+	left: 0px;
+	top: 0px;
+
+	list-style-position: inside;
+	list-style-type: dot;
 	
+	padding: 5px;
+	
+	background-color: gray;
+}
+
+nav li {
+	margin: 10px 0;
+	
+	background-color: lightgray;
+}
 
 main {
 	grid-area: main;
